@@ -13,10 +13,12 @@ jobs:
           exclude:
             - project: l6/l6_e2_sol/
           include:
-             - board: thingy53/nrf5340/cpuapp , thingy53/nrf5340/cpuapp/ns, thingy91/nrf9160/ns ]
-               project: l6/l6_e2_sol/
-          
-            
+              - board: thingy53/nrf5340/cpuapp 
+                project: l6/l6_e2_sol/
+              - board: thingy53/nrf5340/cpuapp/ns
+                project: l6/l6_e2_sol/
+              - board: thingy91/nrf9160/ns
+                project: l6/l6_e2_sol/
               
               
           
