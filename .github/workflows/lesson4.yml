@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'v2.9.0-v2.7.0/l4/**'
+  workflow_dispatch:
+  
 jobs:
   build:
     strategy:
